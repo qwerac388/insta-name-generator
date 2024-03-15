@@ -2,7 +2,8 @@ import express from "express";
 import bodyParser from "body-parser";
 
 const app = express();
-const port = 3000;
+//below to ensure that application will bind to the port provided by Heroku's environment variable PORT when deployed, while still defaulting to port 3000 when running locally.
+const port = process.env.PORT || 3000;
 
 app.use(express.static("public"));
 
