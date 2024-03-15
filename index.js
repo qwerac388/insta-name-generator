@@ -4,6 +4,8 @@ import bodyParser from "body-parser";
 const app = express();
 const port = 3000;
 
+app.use(express.static("public"));
+
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
@@ -11,7 +13,16 @@ app.get("/", (req, res) => {
   res.render("index.ejs");
 });
 
-app.post("/submit", (req, res) => {});
+app.post("/submit", (req, res) => {
+  //randomly pick an adjective from the const "adj" and a noun from const "noun" and send the index.ejs as a response and add the adjective and noun to the res.render
+  const randomAdj = adj[Math.floor(Math.random() * adj.length)];
+  const randomNoun = noun[Math.floor(Math.random() * noun.length)];
+
+  res.render("index.ejs", {
+    adjective: randomAdj,
+    noun: randomNoun,
+  });
+});
 
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
