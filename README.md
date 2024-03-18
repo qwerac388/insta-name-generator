@@ -11,24 +11,26 @@ The Insta Name Generator is a simple, web-based application that helps users gen
 ## Preview
 
 When a user visits the website, they are greeted with a message "Welcome to the Insta Name Generator" and a "Generate Name" button.
-![Preview of the Insta Name Generator](/Preview.png)
+![Preview of the Insta Name Generator](/Preview1.gif)
 
 ---
 
 Upon clicking the button, the server generates a random combination of an adjective and a noun, which is then displayed to the user as a suggested Instagram name.
-![Preview 2 of the Insta Name Generator](/Preview2.png)
+![Preview 2 of the Insta Name Generator](/Preview2.gif)
 
 ## Live Application
 
-The Insta Name Generator is now live! Check it out here: [Insta Name Generator](https://fast-woodland-11996-4a181ef8160e.herokuapp.com/)
+The Insta Name Generator is now live! Check it out here: [Insta Name Generator](https://insta-name-generator-2bd08e87d766.herokuapp.com/)
 
 ## Technical Details
 
-- index.ejs
-  The main page of the application, which includes the templating logic to display the generated Instagram name or a welcome message if no name has been generated yet. It also includes a form that posts to the /submit endpoint to trigger the generation of a new name.
+index.ejs
 
-- index.js (Server)
-  The server-side JavaScript file powered by Node.js and Express. It handles routing, name generation, and the serving of static files.
+- The main page of the application, which includes the templating logic to display the generated Instagram name or a welcome message if no name has been generated yet. It also includes a form that posts to the /submit endpoint to trigger the generation of a new name.
+
+index.js (Server)
+
+- The server-side JavaScript file powered by Node.js and Express. It handles routing, name generation, and the serving of static files.
 
 Key Components:
 
