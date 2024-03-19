@@ -12,13 +12,13 @@ The Insta Name Generator is a simple, web-based application that helps users gen
 
 When a user visits the website, they are greeted with a message "Welcome to the Insta Name Generator" and a "Generate Name" button.
 
-![Preview of the Insta Name Generator](/Preview1.gif)
+![Preview of the Insta Name Generator](public/styles/Preview1.gif)
 
 ---
 
 Upon clicking the button, the server generates a random combination of an adjective and a noun, which is then displayed to the user as a suggested Instagram name.
 
-![Preview 2 of the Insta Name Generator](/Preview2.gif)
+![Preview 2 of the Insta Name Generator](public/styles/Preview2.gif)
 
 ## Live Application
 
