@@ -1,12 +1,13 @@
 # Insta Name Generator
 
-The Insta Name Generator is a simple, web-based application that helps users generate random Instagram usernames. The application is built on Node.js and Express, utilizing EJS for templating.
+The Insta Name Generator is a simple, web-based application that helps users generate random Instagram usernames. The application is built on Node.js and Express, utilizing EJS for templating. For seamless deployment and accessibility, the application is hosted on Heroku.
 
 ## Features
 
 - Random Username Generation: Combines an adjective and a noun to create a unique Instagram name.
 - Simple Web Interface: A user-friendly interface with a welcoming message and a single button to generate the name.
 - Adaptive Layout: The application's design is made responsive with CSS, ensuring compatibility and an optimized viewing experience across different devices.
+- Heroku Deployment: The application is deployed on Heroku, enabling easy access and high availability.
 
 ## Preview
 
